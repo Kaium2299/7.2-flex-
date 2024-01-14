@@ -1,0 +1,24 @@
+.container{
+    border          : 2px solid salmon;
+    display         :flex; /*to bring the boxes into 1 line*/
+    justify-content :flex-end; /*Take the boxes to the end.*/
+    justify-content : center; /*Take the boxes to the center.*/
+    justify-content : space-between; /*3 Leave the space between the boxes (box__box__box)*/
+    justify-content : space-evenly; /* (__box__box__box__)*/
+    justify-content : space-around;/* (_box__box__box_)*/
+    flex-wrap       : nowrap;
+    flex-wrap       :wrap; /*( 1 2 3 4 5 6 )*/
+    flex-wrap       : wrap-reverse; /*( 6 5 4 3 2 1 )*/
+    height          :350px;
+    align-items     : end; /*to bring down*/
+    align-items     :center;/*Place the boxes in the middle*/
+    flex-direction  : column; /*To view the box as a column */
+    flex-direction  : column-reverse; /*If you want to reverse the boxes */
+    flex-direction  :row;
+    flex-direction  :row-reverse;
+}
+.box{
+    border          :2px dashed tomato;
+    width           :100px;
+    height          :100px;
+}
